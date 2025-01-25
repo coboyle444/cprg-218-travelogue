@@ -1,0 +1,14 @@
+*{
+    box-sizing:border-box;
+}
+
+header img {
+    width: 200px;
+}
+
+header { 
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+
