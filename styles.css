@@ -10,7 +10,19 @@ header {
     display:flex;
     align-items:center;
     gap:1rem;
+    background: black;
+    color: white;
 }
+
+main {
+    display:flex;
+    gap:2rem;
+}
+
 img {
     width:200px;
+}
+
+h1 {
+    font-family: Hind, "Gill Sans", sans-serif;
 }
