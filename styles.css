@@ -10,18 +10,26 @@ header {
     background-image: url('airplane.JPG');
     background-size: cover;
     background-attachment: fixed;
-    background-blend-mode: overlay;
+    background-blend-mode: screen;
+    padding-bottom: 10em;
 }
 
 header h6 {
-    text-align:justify;
+    align-items: flex-end;
     margin-top:40%;
+}
+
+header p {
+    padding-top: 30em;
+    text-align: right;
 }
 
 header h1 {
     background: linear-gradient(45deg, #f3de90 0, #eec13b 50%, #aa861a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    position: absolute;
+    text-align: center;
 }
 
 img {
@@ -30,8 +38,18 @@ img {
 
 h1, h2, h6 {
     font-family: Hind, "Gill Sans", sans-serif;
+    color: white;
 }
 
-p, figcaption {
+p, figcaption, footer {
     font-family: Gowun Dodum, "Gill Sans", sans-serif;
+    color: white;
+}
+
+main, footer {
+    background-color: rgb(6, 6, 54);
+}
+
+body {
+    margin: 0;
 }
