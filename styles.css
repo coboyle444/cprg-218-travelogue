@@ -10,19 +10,35 @@ header {
     display:flex;
     align-items:center;
     gap:1rem;
-    background: black;
+    background: rgb(23, 8, 62);
     color: white;
 }
 
-main {
-    display:flex;
-    gap:2rem;
+header h6 {
+    text-align:justify;
+    margin-top:40%;
 }
+
+header h1 {
+    background: linear-gradient(45deg, #ffc800 0, #c596ff 50%, #7650ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section#about-me {
+    flex:2;
+}
+
+
 
 img {
     width:200px;
 }
 
-h1 {
+h1, h2, h6 {
     font-family: Hind, "Gill Sans", sans-serif;
+}
+
+p, figcaption {
+    font-family: Gowun Dodum, "Gill Sans", sans-serif;
 }
