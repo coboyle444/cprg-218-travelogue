@@ -15,28 +15,45 @@ header {
 }
 
 header h6 {
-    align-items: flex-end;
-    margin-top:40%;
+    justify-content: end;
+    display: inline-flex;
+    padding: 15%;
+}
+
+p span {
+    background-color: rgb(19, 4, 64);
+    line-height: 30px;
+    padding: 5px;
+    display: inline-flex;
 }
 
 header p {
     padding-top: 30em;
-    text-align: right;
+    text-align: center;
+    
 }
 
 header h1 {
     background: linear-gradient(45deg, #f3de90 0, #eec13b 50%, #aa861a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    height: 300px;
+    width: 100%;
     position: absolute;
     text-align: center;
+    line-height: 1.5em;
 }
 
 img {
     width:200px;
 }
 
-h1, h2, h6 {
+h1 {
+    font-family: "Great Vibes", "Gill Sans", sans-serif;
+    font-weight: 600;
+}
+
+h2, h6 {
     font-family: Hind, "Gill Sans", sans-serif;
     color: white;
 }
