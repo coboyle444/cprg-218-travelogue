@@ -67,6 +67,11 @@ section p {
     padding:5px;
 }
 
+aside {
+    background-color: rgba(65, 0, 177, 0.451);
+    padding: 60px;
+}
+
 img {
     width: 300px;
 }
