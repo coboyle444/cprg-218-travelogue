@@ -24,7 +24,15 @@ header h6 {
     text-align:center;
     justify-content: end;
     color: goldenrod;
-    background-color: white;
+    background-color: rgb(6, 6, 54);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+header p {
+    background-color: rgb(6, 6, 54);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 h1 {
@@ -56,6 +64,7 @@ section {
 
 section p {
     flex: 1;
+    padding:5px;
 }
 
 img {
