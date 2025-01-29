@@ -1,56 +1,55 @@
 *{
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-header { 
-    display:flex;
-    align-items:center;
-    color: white;
-    background-image: url('airplane2.png');
-    background-size: cover;
+header {
+    display: flex;
+    background-image: url(airplane1.jpg);
+    background-size:cover;
+    background-position: center;
     background-attachment: fixed;
-    background-blend-mode: screen;
-    padding-bottom: 0;
+    padding-bottom: 15rem;
+    gap: 1em;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
+
+
 
 header h6 {
+    text-align:center;
     justify-content: end;
-    display: inline-flex;
-    padding: 15%;
-}
-
-p span {
-    background-color: rgb(19, 4, 64);
-    line-height: 30px;
-    padding: 5px;
-    display: inline-flex;
-    box-shadow: #aa861a;
-}
-
-header p {
-    padding-top: 30em;
-    text-align: center;
-    
-}
-
-header h1 {
-    background: linear-gradient(45deg, #f3de90 0, #eec13b 50%, #aa861a 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    height: 300px;
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    line-height: 1.5em;
-}
-
-img {
-    width:50%;
+    color: goldenrod;
+    background-color: white;
 }
 
 h1 {
-    font-family: "Great Vibes", "Gill Sans", sans-serif;
-    font-weight: 600;
+    background: linear-gradient(45deg, #f3de90 0, #eec13b 50%, #aa861a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Great Vibes", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    border: 1px dotted white;
+}
+
+section h2 {
+    font-family: "Great Vibes", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    padding-block: 2rem;
+    gap: 0;
+}
+
+img {
+    width: 300px;
 }
 
 h2, h6 {
@@ -65,14 +64,4 @@ p, figcaption, footer {
 
 main, footer {
     background-color: rgb(6, 6, 54);
-}
-
-body {
-    margin: 0;
-}
-
-
-footer {
-    padding: 10px;
-    text-align: center;
 }
